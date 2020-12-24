@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+#mainContainer
+{
+    height: 550px;
+
+    display: grid;
+    grid: [header]"head head "100px
+    [main]"navs main"auto
+    [footer]"footer footer" 100px
+    /[navs]20% [main]79%;
+}
+#header
+{
+    grid-area: head;
+    background-color: crimson;
+}
+#nav
+{
+    grid-area: navs;
+    
+    background-color: rgba(238, 238, 238, 0.981);
+}
+#section
+{
+    grid-area: main;
+    background-color: rgb(240, 36, 10);
+}
+#aside
+{
+    grid-area: ads;
+     background-color: rgba(238, 238, 238, 0.981);
+}
+#footer
+{
+    grid-area: footer;
+     background-color: rgb(228, 51, 20);
+}
+img
+{
+    height: 50%;
+    width: 100%;
+}
+#modal 
+{
+    width: 300px;
+}
